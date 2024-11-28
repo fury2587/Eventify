@@ -5,7 +5,7 @@ import { QRGenerator } from "@/components/qr-generator"
 export default function Page() {
   return (
     <div className="container mx-auto py-6">
-      <h1 className="text-3xl font-bold mb-6">Assignment 1</h1>
+      <h1 className="font-mono text-2xl bg-contain bg-slate-500  border-4 opacity-80  rounded-lg">Schedule Your Meeting⌛ & Generate QR Code</h1>
       
       <Tabs defaultValue="calendar" className="space-y-4">
         <TabsList>
